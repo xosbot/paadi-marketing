@@ -1,5 +1,5 @@
 /* ============================================
-   POKKALI VILLAGE — INTERACTIVE FEATURES
+   PAADI VILLAGE — INTERACTIVE FEATURES
    ============================================ */
 
 (function () {
@@ -9,7 +9,7 @@
   // THEME TOGGLE
   // ============================================
   const themeBtn = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('pokkali-theme') || 'light';
+  const savedTheme = localStorage.getItem('paadi-theme') || 'light';
   if (savedTheme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
   updateThemeIcon();
 
@@ -18,7 +18,7 @@
       const current = document.documentElement.getAttribute('data-theme');
       const next = current === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('pokkali-theme', next);
+      localStorage.setItem('paadi-theme', next);
       updateThemeIcon();
     });
   }
@@ -245,7 +245,7 @@
   // ============================================
   // CHECKLIST (with localStorage)
   // ============================================
-  const STORAGE_KEY = 'pokkali-checklist';
+  const STORAGE_KEY = 'paadi-checklist';
   const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
   const checks = document.querySelectorAll('.checklist-item input[type="checkbox"]');
   checks.forEach(c => {

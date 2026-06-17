@@ -1,6 +1,6 @@
-# Pokkali Village — Interactive Marketing Plan
+# Paadi Village — Interactive Marketing Plan
 
-🌾 **An interactive single-page website showcasing the 6-month marketing plan for Pokkali Village — Kerala's first GI-tagged rice tourism destination.**
+🌾 **An interactive single-page website showcasing the 6-month marketing plan for Paadi Village — Kerala's first GI-tagged rice tourism destination.**
 
 [Live Demo](https://paadi-marketing.vercel.app) · [Marketing Plan Source](./MARKETING-PLAN.md) · [Report a Bug](https://github.com/xosbot/paadi-marketing/issues)
 
@@ -12,7 +12,7 @@
 - **Interactive phase filter** (M1–M6) on the 6-month timeline
 - **Live budget calculator** with sliders that update visitor projections
 - **Persona segment tabs** (Primary / Secondary / Tertiary / Niche)
-- **Interactive competitor matrix** (Pokkali vs Pizhala, Cochin Magic, Blue Yonder, Kumbalangi, Kumarakom)
+- **Interactive competitor matrix** (Paadi vs Pizhala, Cochin Magic, Blue Yonder, Kumbalangi, Kumarakom)
 - **KPI hover tooltips** explaining every metric
 - **Persistent implementation checklist** (saves to browser localStorage; reset button included)
 - **Dark / light theme** toggle
@@ -57,14 +57,14 @@ paadi-marketing/
 ├── README.md               # This file
 ├── MARKETING-PLAN.md       # The full marketing plan (markdown source)
 └── public/
-    └── images/             # 17 curated photos of Pokkali fields, farmers, food
+    └── images/             # 17 curated photos of Paadi fields, farmers, food
 ```
 
 ## 🎨 Brand
 
 | Token | Value | Use |
 |-------|-------|-----|
-| Pokkali Green | `#2E5C3E` | Primary, headings, navigation |
+| Paadi Green | `#2E5C3E` | Primary, headings, navigation |
 | Prawn Gold | `#D4A017` | Accents, CTAs, highlights |
 | Rice Cream | `#F5F0E8` | Backgrounds |
 | Earth Brown | `#8B5E3C` | Secondary, textures |
@@ -112,7 +112,7 @@ Or connect the GitHub repo to Vercel for automatic deployments on push.
 
 ## 📝 License
 
-© 2026 Pokkali Village. An initiative of Palliyakkal Service Cooperative Bank.
+© 2026 Paadi Village. An initiative of Palliyakkal Service Cooperative Bank.
 
 Built for the PAADI / Palliyakkal SCB marketing launch.
 
