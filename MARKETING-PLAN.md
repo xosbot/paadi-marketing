@@ -10,7 +10,7 @@
 
 This plan transforms Pokkali Village into **Kerala's premier eco-tourism destination**, driving revenue across four verticals: **village tourism, eco-products, hospitality, and food business.**
 
-**Core Strategy:** Build digital presence, establish tour operations, launch e-commerce, and scale through partnerships — anchored by a 3,000-year-old, zero-chemical, GI-tagged rice-prawn farming system.
+**Core Strategy:** Build digital presence, establish tour operations, launch e-commerce, and scale through partnerships — anchored by a 3,000-year-old, zero-chemical, GI-tagged rice-prawn farming system, Kerala's first electric backwater boat, a 51-dish community kitchen, and live Organic Theater performances.
 
 **6-Month Targets:** 1,000+ visitors, 200+ foreign tourists, 15,000+ IG followers, 100+ TripAdvisor reviews, 5+ partner operators, 5+ press features.
 
@@ -47,7 +47,7 @@ This plan transforms Pokkali Village into **Kerala's premier eco-tourism destina
 
 ## 3. Unique Selling Propositions
 
-**Primary USP:** India's first GI-tagged rice tourism village — 3,000-year-old, zero-chemical, community-owned farming heritage you can walk through, paddle through, and taste.
+**Primary USP:** India's first GI-tagged rice tourism village — 3,000-year-old, zero-chemical, community-owned farming heritage you can walk through, paddle through, and taste — now with Kerala's first electric backwater boat, a 51-dish community kitchen, and weekly Organic Theater performances.
 
 | USP | Proof |
 |-----|-------|
@@ -59,12 +59,15 @@ This plan transforms Pokkali Village into **Kerala's premier eco-tourism destina
 | Community-Owned | Bank cooperative; farmers benefit directly |
 | Carbon-Sink Wetlands | Fields fight climate change |
 | GI Products for Sale | Buy authentic rice + prawn products |
+| Paadi Veedu Kitchen | 51-dish community feast by women's SHGs; no competitor can replicate |
+| Electric Boat & Jetty | Kerala's first zero-emission backwater boat; silent birdwatching |
+| Organic Theater | Kadamban Moothan's weekly Theyyam + shadow puppetry performance |
 
 ---
 
 ## 4. SWOT Analysis
 
-| **Strengths** | **Weaknesses** |
+| Strengths | Weaknesses |
 |---------------|----------------|
 | Only GI-tagged rice tourism in India | Not yet operational |
 | 30 min from Kochi airport | No existing reviews |
@@ -72,6 +75,9 @@ This plan transforms Pokkali Village into **Kerala's premier eco-tourism destina
 | Bank-backed credibility | Infrastructure gaps |
 | 3,000-year heritage story | No booking platform yet |
 | Climate resilience narrative | Seasonal monsoon risks |
+| Paadi Veedu Kitchen (51-dish community feast) | Kitchen build-out still in progress |
+| Electric Boat — Kerala's first zero-emission | Boat arriving July 2026 (not yet operational) |
+| Organic Theater — resident cultural partner | Requires audience volume to sustain weekly shows |
 
 | **Opportunities** | **Threats** |
 |-------------------|------------|
@@ -81,6 +87,9 @@ This plan transforms Pokkali Village into **Kerala's premier eco-tourism destina
 | ESG/sustainability trend | Copycat competitors |
 | Food tourism explosion | Negative early reviews |
 | Digital nomad/slow travel | Regulatory changes |
+| Electric boat = global eco-tourism PR angle | River/waterway licensing delays |
+| Kitchen attracts local diners (not just tourists) | Kitchen staffing and supply chain complexity |
+| Theater extends evening programming | Cultural authenticity risk if not well-produced |
 
 ---
 
@@ -94,12 +103,17 @@ This plan transforms Pokkali Village into **Kerala's premier eco-tourism destina
 - **Sustainability** — Zero chemicals, carbon sink, regenerative
 - **Community** — Farmers own and benefit directly
 - **Accessibility** — 30 min from Kochi, easy to book
+- **Culinary** — Paadi Veedu Kitchen's 51-dish community feast, each dish from a different household
+- **Water** — Kerala's first silent electric boat; zero-emission backwater experience
+- **Culture** — Organic Theater: live Theyyam, shadow puppetry, and folk performance
 
 **Taglines:**
 - "Walk the Fields. Ride the Waters. Taste the Story."
 - "3,000 Years of Farming in Saltwater."
 - "Zero Chemicals. Zero Waste. Zero Compromise."
 - "The Farmer is the Host."
+- "51 Dishes. 51 Households. One Village Kitchen."
+- "The Backwaters Have Never Been This Quiet."
 
 ---
 
@@ -228,6 +242,8 @@ This plan transforms Pokkali Village into **Kerala's premier eco-tourism destina
 | Press features | 0 | 1 | 5 |
 | Revenue (tours) | ₹15,000 | ₹3,00,000 | ₹15,00,000 |
 | Revenue (products) | ₹0 | ₹25,000 | ₹2,00,000 |
+| Revenue (restaurant/Kitchen) | ₹0 | ₹50,000 | ₹4,00,000 |
+| Revenue (water sports/electric boat) | ₹0 | ₹30,000 | ₹1,50,000 |
 
 ---
 
@@ -239,16 +255,16 @@ This plan transforms Pokkali Village into **Kerala's premier eco-tourism destina
 | Monday | Farmer Spotlight | Portrait + story carousel |
 | Tuesday | Behind-the-Scenes | Short Reel |
 | Wednesday | Eco Facts | Infographic carousel |
-| Thursday | Food/Cooking | Recipe or meal Reel |
-| Friday | Visitor Experience | UGC or testimonial |
-| Saturday | Booking CTA | Tour highlight Reel |
+| Thursday | Kitchen Chronicles | Paadi Veedu Kitchen Reel — dish close-ups, banana-leaf spread, SHG women cooking, 51-item feast countdown |
+| Friday | Boat Cam | Electric boat cruise POV, silent backwater footage, kayaking clips, PAADI Tales tour snippets |
+| Saturday | Theater Night | Organic Theater performance clips, Theyyam-inspired behind-the-scenes, shadow puppetry close-ups, audience reactions |
 | Sunday | Heritage Story | Long-form caption |
 
 ### Key Creative Assets Needed
-1. **Reels:** Kayaking through fields, cooking class, farmer planting
-2. **Photos:** Sunset over fields, lunch on fishing net platform, farmer portraits
-3. **Videos:** YouTube mini-doc (10 min), festival documentary
-4. **Infographics:** Rice-prawn cycle, carbon sink story, 3,000-year timeline
+1. **Reels:** Kayaking through fields, cooking class, farmer planting, electric boat silent cruise, Kitchen 51-dish montage, Organic Theater Theyyam moment
+2. **Photos:** Sunset over fields, lunch on fishing net platform, farmer portraits, banana-leaf feast spread, electric boat on backwater, shadow puppetry silhouette
+3. **Videos:** YouTube mini-doc (10 min), festival documentary, Kitchen Chronicles series (30-sec each), Boat Cam series (POV 15-sec each), Theater Night series (behind-the-curtain 30-sec each)
+4. **Infographics:** Rice-prawn cycle, carbon sink story, 3,000-year timeline, 51-dish feast map, electric boat vs. diesel houseboat comparison
 5. **E-commerce:** Product photography (rice, pickles, coir)
 
 ---
@@ -287,19 +303,25 @@ Five core packages, positioned as **"premium affordable"** — more expensive th
 
 | Package | Duration | Price (per person) | Includes |
 |---------|----------|-------------------|----------|
-| **Pokkali Discovery** | 4 hours | ₹1,500 – ₹2,500 | Farm walk, canoe ride, Pokkali meal, farmer chat |
-| **Overnight Farm Stay** | 24 hours | ₹4,000 – ₹6,000 | Stay, sunset canoe, cooking class, breakfast, campfire |
-| **3-Day Regenerative Retreat** | 3D/2N | ₹12,000 – ₹18,000 | Farming, conservation, kayaking, Ayurveda, birdwatching, all meals |
-| **Pokkali Cooking Class** | 3 hours | ₹1,000 – ₹1,500 | Hands-on rice + prawn cookery, recipe card, lunch |
-| **Corporate CSR Outing** | 1 day | ₹3,000 – ₹5,000/pp | Team-building, wetland restoration, group cooking, boat race |
+| **Pokkali Discovery** | 4 hours | ₹1,500 – ₹2,500 | Farm walk, canoe ride, Paadi Veedu Kitchen meal, farmer chat |
+| **Overnight Farm Stay** | 24 hours | ₹4,000 – ₹6,000 | Stay, electric boat cruise, sunset canoe, cooking class, Paadi Veedu Kitchen lunch, campfire |
+| **3-Day Regenerative Retreat** | 3D/2N | ₹12,000 – ₹18,000 | Farming, conservation, kayaking, Ayurveda, birdwatching, electric boat cruise, Paadi Veedu Kitchen feast, Organic Theater performance, all meals |
+| **Pokkali Cooking Class** | 3 hours | ₹1,000 – ₹1,500 | Hands-on rice + prawn cookery, recipe card, lunch at Paadi Veedu Kitchen |
+| **Corporate CSR Outing** | 1 day | ₹3,000 – ₹5,000/pp | Team-building, wetland restoration, group cooking, boat race, Paadi Veedu Kitchen group dining |
+| **Water Sports Package** | 3–4 hours | ₹2,000 – ₹3,500 | Electric boat backwater cruise, kayaking, canoe ride, PAADI Tales heritage tour, light refreshments at jetty |
+
+*Key experience elements across all packages:* Paadi Veedu Kitchen (community feast), Water Sports Jetty (electric boat, kayaking, canoe), Organic Theater (Kadamban Moothan's weekly performance), plus farm walks, cooking classes, and farmer interaction.
 
 ### 13.2 Add-Ons & Upsells
 
 - **Private canoe** (+₹1,500) — sunset slot for couples/families
+- **Electric boat cruise** (+₹800) — PAADI Tales heritage tour, 45-min silent backwater ride
+- **Kayak rental** (+₹500) — 1-hour self-paddle through Pokkali canals
 - **Ayurveda massage** (+₹2,500) — 60-min with certified local therapist
 - **Photographer** (+₹3,000) — 2-hour shoot, 20 edited photos
 - **Airport transfer** (+₹1,200) — AC sedan, Fort Kochi hotels + ₹500 per addl. stop
 - **Pokkali Gift Box** (₹1,200) — 1kg rice + prawn pickle + coir coaster set
+- **Organic Theater** (+₹500) — evening performance by Kadamban Moothan (included in 3-Day Retreat)
 - **Extra night** (+₹3,500) — add to any package
 
 ### 13.3 Accommodation Tiers
@@ -343,12 +365,14 @@ Five core packages, positioned as **"premium affordable"** — more expensive th
 
 | Stream | % of Revenue | Notes |
 |--------|-------------|-------|
-| Tour packages (direct) | 45% | Highest margin |
-| Tour packages (operator channel) | 20% | Lower margin, but volume |
-| Accommodation | 15% | Multi-day packages |
-| E-commerce (rice, pickles, coir) | 10% | Recurring, shippable nationally |
-| Corporate/CSR | 7% | High LTV, B2B |
-| Add-ons (photographer, Ayurveda) | 3% | Pure margin |
+| Tour packages (direct) | 40% | Highest margin |
+| Tour packages (operator channel) | 15% | Lower margin, but volume |
+| Food & Restaurant (Paadi Veedu Kitchen) | 15% | Community feast, a la carte, group dining; recurring daily revenue |
+| Accommodation | 12% | Multi-day packages |
+| Water Sports & Electric Boat | 5% | Kayaking, canoe, PAADI Tales tour; per-ride pricing |
+| E-commerce (rice, pickles, coir) | 8% | Recurring, shippable nationally |
+| Corporate/CSR | 4% | High LTV, B2B |
+| Add-ons (photographer, Ayurveda, Theater) | 1% | Pure margin |
 
 ---
 
@@ -367,13 +391,13 @@ Five core packages, positioned as **"premium affordable"** — more expensive th
 
 #### **Cochin Magic "Story of a Rice"** (Kochi periphery, tour-only)
 - **Their wedge:** Professional guide, polished narrative
-- **Our counter:** Own the experience end-to-end (stay + food + farm)
+- **Our counter:** Own the experience end-to-end (stay + food + farm) — plus Paadi Veedu Kitchen, Electric Boat, and Organic Theater that they don't have
 - **What we say:** "Story of a Rice" is a great intro — Pokkali Village is the full day, the overnight, the harvest"
 - **What we do:** Hire a more senior guide than theirs; offer the overnight that they can't.
 
 #### **Blue Yonder Ezhikkara Tours** (Ezhikkara, small, inconsistent)
 - **Their wedge:** Local storytelling, Blue Yonder brand credibility
-- **Our counter:** Reliability + standardisation + Ezhikkara-resident legitimacy
+- **Our counter:** Reliability + standardisation + Ezhikkara-resident legitimacy + Paadi Veedu Kitchen + Electric Boat
 - **What we do:** Approach Blue Yonder founder for partnership, not fight. Offer to be their "Pokkali experience" white-label partner for premium groups. They get reliable ops; we get their brand reach.
 
 #### **Spice Village / Pepper County (Thekkady)**
@@ -386,12 +410,12 @@ Five core packages, positioned as **"premium affordable"** — more expensive th
 
 #### **Kumbalangi Model Tourism Village**
 - **Their wedge:** RT Mission-backed, near Kochi, well-known
-- **Our counter:** GI rice story they can't replicate; overnight stays
+- **Our counter:** GI rice story they can't replicate; overnight stays; Paadi Veedu Kitchen community feast; Organic Theater; electric boat
 - **What we say:** "Kumbalangi is a fishing village. Pokkali is a farming civilisation."
 
 #### **Kumarakom**
 - **Their wedge:** Established, houseboat combo, premium
-- **Our counter:** Authentic, not commercialised; food + farm focus over backwater
+- **Our counter:** Authentic, not commercialised; food + farm focus over backwater; electric boat = silent backwater vs. diesel houseboat
 - **What we say:** "Kumarakom is the polished Kerala. Pokkali is the real Kerala."
 
 #### **Thenmala / Wayanad farm stays**
@@ -404,7 +428,7 @@ Five core packages, positioned as **"premium affordable"** — more expensive th
 - **No corporate-sponsored "experience" deals** that compromise authenticity (e.g., Colgate-Pokkali "smiles in the fields")
 - **No group sizes above 20/day** in core fields; split groups, rotate
 - **No discounting below the floor (₹1,200/person)** even in low season
-- **No staged "tribal" or "village dance" performances** — only real festivals
+- **No staged "tribal" or "village dance" performances** — only real festivals and Kadamban Moothan's Organic Theater (community-owned, agriculturally themed)
 - **No copycat content from competitors** — if you can find it on Pizhala's Instagram, don't post it
 
 ### 14.4 Monthly Competitor Watch
@@ -583,8 +607,9 @@ Target: 15 Fort Kochi / Mattancherry boutique hotels (Brunton Boatyard, Old Cour
 - 0:00 — Welcome by PAADI Chairman + light refreshment
 - 0:15 — Ribbon cutting + farmers' blessing
 - 0:30 — Guided farm walk (3 groups rotating)
-- 1:15 — Cooking demo + tasting
-- 2:00 — Folk performance (Kathakali or Theyyam excerpt)
+- 1:15 — Cooking demo + tasting at Paadi Veedu Kitchen
+- 1:45 — Electric boat inaugural cruise (VIP + media)
+- 2:00 — Organic Theater performance excerpt by Kadamban Moothan
 - 2:30 — Press Q&A + farmer interviews
 - 3:00 — Close
 

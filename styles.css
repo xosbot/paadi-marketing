@@ -503,6 +503,99 @@ ul { list-style: none; }
 }
 
 /* ============================================
+   WHAT'S NEW
+   ============================================ */
+.whats-new-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.whats-new-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px 32px;
+  text-align: center;
+  transition: var(--transition);
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+.whats-new-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-8px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow);
+}
+.whats-new-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--gold);
+  color: var(--green-dark);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.whats-new-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin: 0 auto 20px;
+  background: var(--gold);
+  color: var(--green-dark);
+}
+.whats-new-card:nth-child(1) .whats-new-icon { background: var(--gold); }
+.whats-new-card:nth-child(2) .whats-new-icon { background: var(--brackish); color: var(--white); }
+.whats-new-card:nth-child(3) .whats-new-icon { background: var(--earth); color: var(--white); }
+.whats-new-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+  color: var(--white);
+}
+.whats-new-role {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.whats-new-card p {
+  font-size: 14px;
+  color: rgba(245, 240, 232, 0.75);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.whats-new-link {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.5px;
+  transition: var(--transition);
+}
+.whats-new-card:hover .whats-new-link { color: var(--gold-light); }
+
+[data-theme="dark"] .bg-dark .whats-new-card h3 { color: var(--white); }
+
+@media (max-width: 1024px) {
+  .whats-new-grid { grid-template-columns: 1fr; }
+}
+
+/* ============================================
    MARKET OPPORTUNITY
    ============================================ */
 .opp-grid {
@@ -2105,7 +2198,7 @@ ul { list-style: none; }
   .timeline-card, .opp-card, .persona, .swot-card, .usp-card, .channel,
   .pricing-card, .partner-tier, .pr-tier, .crisis-card, .checklist-month,
   .ecom-card, .kpi-card, .risk-card, .matrix-table, .next-steps,
-  .pillar-card, .report-counter, .report-impact-card, .report-table,
+  .pillar-card, .whats-new-card, .report-counter, .report-impact-card, .report-table,
   .report-timeline-grid, .report-quote, .report-cta-list li {
     box-shadow: none !important; border: 1px solid #ddd !important;
     background: white !important; color: black !important; page-break-inside: avoid;
