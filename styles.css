@@ -1564,16 +1564,29 @@ ul { list-style: none; }
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .page-hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('images/hero-bg.jpeg') center/cover no-repeat;
-  opacity: 0.12;
-  pointer-events: none;
+  background: linear-gradient(135deg, rgba(26, 58, 46, 0.92) 0%, rgba(14, 31, 24, 0.88) 50%, rgba(43, 74, 92, 0.85) 100%);
+  z-index: 0;
 }
-.page-hero .container { position: relative; z-index: 2; }
+.page-hero .container { position: relative; z-index: 1; }
+.page-hero h1 { text-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+.page-hero p { text-shadow: 0 1px 10px rgba(0,0,0,0.2); }
+.page-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right, var(--gold), var(--green), var(--gold));
+}
 .page-hero .eyebrow { margin-bottom: 12px; }
 .page-hero h1 {
   font-size: clamp(2.2rem, 5vw, 4rem);
