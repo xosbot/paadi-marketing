@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Offerings — Pokkali Village</title>
+<meta name="description" content="Target personas, pricing, channel strategy, and e-commerce roadmap for Pokkali Village." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="progress-rail" id="progress-rail"></div>
+
+<nav class="nav scrolled" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-mark">P</div>
+      <span>Pokkali Village</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="market.html">Market</a></li>
+      <li><a href="offerings.html" class="nav-active">Offerings</a></li>
+      <li><a href="plan.html">Plan</a></li>
+      <li><a href="strategy.html">Strategy</a></li>
+      <li><a href="report.html">Report</a></li>
+    </ul>
+    <div class="nav-tools">
+      <button class="icon-btn" id="theme-toggle" title="Toggle theme">🌙</button>
+      <button class="icon-btn no-print" id="print-btn" title="Print / Save as PDF">🖨</button>
+      <a href="plan.html" class="nav-cta">Plan →</a>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" data-section-label="Top">
+  <div class="container">
+    <span class="eyebrow" style="color: var(--gold);">What We Offer</span>
+    <h1>Who We Serve, <em>What We Charge</em></h1>
+    <p>Six target personas, five tour packages, twelve channels, and seven SKUs — the complete revenue architecture of Pokkali Village.</p>
+    <div class="page-nav">
+      <a href="#personas">Personas</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#channels">Channels</a>
+      <a href="#ecommerce">E-commerce</a>
+    </div>
+  </div>
+</section>
+
+<!-- PERSONAS -->
+<section class="section" id="personas" data-section-label="Personas">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">Target Segments</span>
+      <h2 class="section-title">Who Are We Talking To?</h2>
+      <p class="section-subtitle">Six distinct audiences, each with unique motivations, budgets, and channels. Click a segment to filter.</p>
+    </div>
+    <div class="persona-tabs">
+      <button class="persona-tab active" data-segment="all">All Segments</button>
+      <button class="persona-tab" data-segment="primary">Primary</button>
+      <button class="persona-tab" data-segment="secondary">Secondary</button>
+      <button class="persona-tab" data-segment="tertiary">Tertiary</button>
+      <button class="persona-tab" data-segment="niche">Niche</button>
+    </div>
+    <div class="persona-grid">
+      <div class="persona fade-in" data-segment="primary">
+        <div class="persona-tag">Primary</div>
+        <div class="persona-avatar">🌍</div>
+        <h3>The Conscious Explorer</h3>
+        <div class="persona-meta">25-40 • UK / Germany / Australia / USA<br />₹3,000-8,000/night</div>
+        <div class="persona-detail"><strong>Seeks</strong>Authenticity, sustainability, learning, cultural exchange</div>
+        <div class="persona-detail"><strong>Avoids</strong>Commercialized, staged, luxury resorts</div>
+        <div class="persona-detail"><strong>Booking</strong>TripAdvisor, Airbnb, Responsible Travel, blogs</div>
+        <div class="persona-msg">Stay in a village that's been organic for 3,000 years</div>
+      </div>
+      <div class="persona fade-in" data-segment="secondary">
+        <div class="persona-tag">Secondary</div>
+        <div class="persona-avatar">🇮🇳</div>
+        <h3>The Kerala Weekender</h3>
+        <div class="persona-meta">28-55 • Kochi / Bangalore / Mumbai<br />₹2,000-6,000/person</div>
+        <div class="persona-detail"><strong>Seeks</strong>Short getaway, unique experience, Instagram-worthy</div>
+        <div class="persona-detail"><strong>Avoids</strong>Long drives, generic resorts, tourist traps</div>
+        <div class="persona-detail"><strong>Booking</strong>Instagram, Google, WhatsApp, word-of-mouth</div>
+        <div class="persona-msg">30 minutes from Kochi — a day you'll never forget</div>
+      </div>
+      <div class="persona fade-in" data-segment="tertiary">
+        <div class="persona-tag">Tertiary</div>
+        <div class="persona-avatar">💼</div>
+        <h3>The Corporate Team</h3>
+        <div class="persona-meta">IT Companies / Banks / MNCs<br />₹3,000-5,000/person</div>
+        <div class="persona-detail"><strong>Seeks</strong>Team building with social impact, CSR reporting</div>
+        <div class="persona-detail"><strong>Avoids</strong>Boring activities, no measurable impact</div>
+        <div class="persona-detail"><strong>Booking</strong>Direct email, LinkedIn, HR/Admin referrals</div>
+        <div class="persona-msg">Team-building that plants trees, not just talks</div>
+      </div>
+      <div class="persona fade-in" data-segment="niche">
+        <div class="persona-tag">Niche</div>
+        <div class="persona-avatar">🍳</div>
+        <h3>The Foodie Traveller</h3>
+        <div class="persona-meta">Food bloggers / Cooking enthusiasts<br />₹2,000-6,000</div>
+        <div class="persona-detail"><strong>Seeks</strong>Farm-to-table, cooking classes, unique ingredients</div>
+        <div class="persona-detail"><strong>Avoids</strong>Mass tourism, fake experiences, processed food</div>
+        <div class="persona-detail"><strong>Booking</strong>Instagram food bloggers, YouTube cooking channels</div>
+        <div class="persona-msg">The only GI-tagged rice you can harvest and eat</div>
+      </div>
+      <div class="persona fade-in" data-segment="niche">
+        <div class="persona-tag">Niche</div>
+        <div class="persona-avatar">🎓</div>
+        <h3>The Student Researcher</h3>
+        <div class="persona-meta">Agri universities / NGOs / Schools<br />₹1,500-4,000</div>
+        <div class="persona-detail"><strong>Seeks</strong>Field research, study tours, climate adaptation</div>
+        <div class="persona-detail"><strong>Avoids</strong>Tourist traps, no educational value</div>
+        <div class="persona-detail"><strong>Booking</strong>University partnerships, NGO networks</div>
+        <div class="persona-msg">A living laboratory of climate-resilient agriculture</div>
+      </div>
+      <div class="persona fade-in" data-segment="primary">
+        <div class="persona-tag">Emerging</div>
+        <div class="persona-avatar">💎</div>
+        <h3>The Luxury Eco-Tourist</h3>
+        <div class="persona-meta">40-60 • USA / UK / Scandinavia<br />₹10,000-25,000/night</div>
+        <div class="persona-detail"><strong>Seeks</strong>Premium comfort, exclusivity, wellness, nature</div>
+        <div class="persona-detail"><strong>Avoids</strong>Crowds, basic amenities, mass tourism</div>
+        <div class="persona-detail"><strong>Booking</strong>Luxury tour operators, boutique travel agents</div>
+        <div class="persona-msg">Premium eco-stay in a 3,000-year-old heritage village</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section bg-cream" id="pricing" data-section-label="Pricing">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">Pricing Strategy</span>
+      <h2 class="section-title">5 Packages, 4 Tiers, One Promise</h2>
+      <p class="section-subtitle">"Premium affordable" — more than Kumbalangi (signals quality), less than Thekkady (signals accessibility). All packages include meals.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card fade-in">
+        <h4>Paadi Discovery</h4>
+        <div class="duration">4 hours</div>
+        <div class="price">₹1,500-2,500</div>
+        <div class="price-period">per person</div>
+        <ul class="includes">
+          <li>Farm walk + canoe ride</li>
+          <li>Paadi meal + farmer chat</li>
+          <li>Best for: day-trippers from Kochi</li>
+        </ul>
+      </div>
+      <div class="pricing-card featured fade-in">
+        <h4>Overnight Farm Stay</h4>
+        <div class="duration">24 hours</div>
+        <div class="price">₹4,000-6,000</div>
+        <div class="price-period">per person</div>
+        <ul class="includes">
+          <li>Stay, sunset canoe, cooking class</li>
+          <li>Breakfast, campfire, all meals</li>
+          <li>Best for: couples, families, solos</li>
+        </ul>
+      </div>
+      <div class="pricing-card fade-in">
+        <h4>3-Day Retreat</h4>
+        <div class="duration">3 days / 2 nights</div>
+        <div class="price">₹12,000-18,000</div>
+        <div class="price-period">per person</div>
+        <ul class="includes">
+          <li>Farming, conservation, kayaking</li>
+          <li>Ayurveda, birdwatching, all meals</li>
+          <li>Best for: slow travellers, eco-conscious</li>
+        </ul>
+      </div>
+      <div class="pricing-card fade-in">
+        <h4>Cooking Class</h4>
+        <div class="duration">3 hours</div>
+        <div class="price">₹1,000-1,500</div>
+        <div class="price-period">per person</div>
+        <ul class="includes">
+          <li>Hands-on rice + prawn cookery</li>
+          <li>Recipe card + lunch</li>
+          <li>Best for: foodies, families</li>
+        </ul>
+      </div>
+      <div class="pricing-card fade-in">
+        <h4>Corporate CSR</h4>
+        <div class="duration">1 day</div>
+        <div class="price">₹3,000-5,000</div>
+        <div class="price-period">per person</div>
+        <ul class="includes">
+          <li>Team-building + wetland restoration</li>
+          <li>Group cooking + boat race</li>
+          <li>Best for: companies, universities, NGOs</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center" style="margin-top: 30px;">
+      <span class="eyebrow">Channel Commission Model</span>
+    </div>
+    <div class="commission-table fade-in">
+      <table>
+        <thead>
+          <tr><th>Channel</th><th>Commission</th><th>Net Margin Impact</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Direct website booking</td><td class="pct">0%</td><td>Highest margin; free recipe card incentive</td></tr>
+          <tr><td>WhatsApp / phone direct</td><td class="pct">0%</td><td>Tracked via unique link/code</td></tr>
+          <tr><td>Fort Kochi tour operators</td><td class="pct">15%</td><td>Contract: min 20 bookings/quarter</td></tr>
+          <tr><td>Airbnb Experiences</td><td class="pct">20%</td><td>~25% net after platform fees</td></tr>
+          <tr><td>Viator / GetYourGuide</td><td class="pct">25-30%</td><td>Foreign tourist visibility play</td></tr>
+          <tr><td>Influencer promo code</td><td class="pct">10%</td><td>Tracked via Razorpay; unique per influencer</td></tr>
+          <tr><td>Corporate direct (B2B)</td><td class="pct">5%</td><td>Referral incentive; long-cycle, high LTV</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section class="section" id="channels" data-section-label="Channels">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">Channel Strategy</span>
+      <h2 class="section-title">12 Channels, One Story</h2>
+      <p class="section-subtitle">Each channel plays a specific role in the funnel — from awareness to conversion to retention.</p>
+    </div>
+    <div class="channels-grid">
+      <div class="channel fade-in"><div class="channel-icon">📷</div><h4>Instagram</h4><p>Visual storytelling, Reels, UGC, awareness + booking</p></div>
+      <div class="channel fade-in"><div class="channel-icon">▶️</div><h4>YouTube</h4><p>Mini-doc, Shorts, credibility + deep storytelling</p></div>
+      <div class="channel fade-in"><div class="channel-icon">📧</div><h4>Email</h4><p>Lead nurture, newsletter, booking conversion</p></div>
+      <div class="channel fade-in"><div class="channel-icon">💬</div><h4>WhatsApp</h4><p>Direct booking, customer service, India market</p></div>
+      <div class="channel fade-in"><div class="channel-icon">🏠</div><h4>Airbnb / Viator</h4><p>Foreign tourist discovery, platform booking</p></div>
+      <div class="channel fade-in"><div class="channel-icon">🤝</div><h4>Tour Operators</h4><p>Fort Kochi partners, 15% commission, group bookings</p></div>
+      <div class="channel fade-in"><div class="channel-icon">⭐</div><h4>TripAdvisor</h4><p>Reviews, ranking, foreign tourist trust signal</p></div>
+      <div class="channel fade-in"><div class="channel-icon">🌐</div><h4>Google Business</h4><p>Local search, maps, reviews</p></div>
+      <div class="channel fade-in"><div class="channel-icon">🛒</div><h4>E-commerce</h4><p>Pokkali rice, prawn products, Gift Box sales</p></div>
+      <div class="channel fade-in"><div class="channel-icon">📰</div><h4>PR &amp; Press</h4><p>National + international media features</p></div>
+      <div class="channel fade-in"><div class="channel-icon">🎯</div><h4>Meta + Google Ads</h4><p>Paid acquisition, retargeting, lookalike audiences</p></div>
+      <div class="channel fade-in"><div class="channel-icon">💎</div><h4>Influencers</h4><p>Hosted visits, takeovers, content creation</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- E-COMMERCE -->
+<section class="section bg-cream" id="ecommerce" data-section-label="E-commerce">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">E-commerce Roadmap</span>
+      <h2 class="section-title">7 SKUs, 6 Months, ₹2 Lakh</h2>
+      <p class="section-subtitle">Rice, prawn pickle, coir — and the Paadi Gift Box as the flagship bundle. E-complements tour revenue with year-round shippable product sales.</p>
+    </div>
+    <div class="ecom-grid">
+      <div class="ecom-card fade-in">
+        <div class="ecom-card-icon">🌾</div>
+        <h4>Pokkali Rice (1kg)</h4>
+        <div class="price">₹450</div>
+        <div class="margin">Margin: 35%</div>
+      </div>
+      <div class="ecom-card fade-in">
+        <div class="ecom-card-icon">🌾</div>
+        <h4>Pokkali Rice (5kg)</h4>
+        <div class="price">₹2,100</div>
+        <div class="margin">Margin: 38%</div>
+      </div>
+      <div class="ecom-card fade-in">
+        <div class="ecom-card-icon">🦐</div>
+        <h4>Prawn Pickle (200g)</h4>
+        <div class="price">₹380</div>
+        <div class="margin">Margin: 45%</div>
+      </div>
+      <div class="ecom-card fade-in">
+        <div class="ecom-card-icon">🌶️</div>
+        <h4>Prawn Paste (150g)</h4>
+        <div class="price">₹320</div>
+        <div class="margin">Margin: 45%</div>
+      </div>
+      <div class="ecom-card fade-in">
+        <div class="ecom-card-icon">🧺</div>
+        <h4>Coir Coasters (4pc)</h4>
+        <div class="price">₹550</div>
+        <div class="margin">Margin: 60%</div>
+      </div>
+      <div class="ecom-card fade-in">
+        <div class="ecom-card-icon">🎁</div>
+        <h4>Paadi Gift Box</h4>
+        <div class="price">₹1,200</div>
+        <div class="margin">Margin: 40% (flagship)</div>
+      </div>
+      <div class="ecom-card fade-in">
+        <div class="ecom-card-icon">💎</div>
+        <h4>Heritage Box</h4>
+        <div class="price">₹1,800</div>
+        <div class="margin">Margin: 42% (festive)</div>
+      </div>
+    </div>
+    <div class="ecom-timeline fade-in">
+      <h4>Launch Sequence</h4>
+      <div class="ecom-timeline-item"><span class="ecom-timeline-month">M1</span><span class="ecom-timeline-text">3 SKUs, product photography, SHG supplier agreements</span></div>
+      <div class="ecom-timeline-item"><span class="ecom-timeline-month">M2</span><span class="ecom-timeline-text">Shopify + Razorpay live; FSSAI + GST + GI logo rights confirmed</span></div>
+      <div class="ecom-timeline-item"><span class="ecom-timeline-month">M3</span><span class="ecom-timeline-text">Soft launch on IG DM + WhatsApp; first 50 orders</span></div>
+      <div class="ecom-timeline-item"><span class="ecom-timeline-month">M4</span><span class="ecom-timeline-text">Public launch; Google Shopping feed; Gift Box for festivals</span></div>
+      <div class="ecom-timeline-item"><span class="ecom-timeline-month">M5</span><span class="ecom-timeline-text">Amazon Karigar pilot; ONDC listing</span></div>
+      <div class="ecom-timeline-item"><span class="ecom-timeline-month">M6</span><span class="ecom-timeline-text">Corporate gifting SKU (5kg branded boxes for Diwali/Christmas)</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section bg-dark" data-section-label="Next">
+  <div class="container">
+    <div class="next-steps" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+      <span class="eyebrow" style="color: var(--gold);">What's Next?</span>
+      <h2 style="color: var(--white);">See the Execution Plan</h2>
+      <p style="color: rgba(245,240,232,0.8);">18-month timeline, budget calculator, KPI framework, and launch playbook — everything you need to understand how we get there.</p>
+      <div class="hero-cta-group">
+        <a href="plan.html" class="btn btn-primary">Execution Plan →</a>
+        <a href="strategy.html" class="btn btn-outline">Strategy →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Pokkali Village</div>
+        <div class="footer-tag">Walk the Fields. Ride the Waters. Taste the Story.</div>
+        <p class="footer-desc">Pokkali Village — the umbrella project. PAADI Tales — the tour product. Paadi Veedu — the agro ecosystem. India's first GI-tagged rice tourism destination, anchored by Palliyakkal Service Cooperative Bank.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Discover</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="market.html">Market Analysis</a></li>
+          <li><a href="offerings.html">Offerings</a></li>
+          <li><a href="plan.html">Execution Plan</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Plan</h4>
+        <ul>
+          <li><a href="plan.html">18-Month Plan</a></li>
+          <li><a href="strategy.html">Strategy</a></li>
+          <li><a href="report.html">Project Report</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">hello@paadivillage.in</a></li>
+          <li><a href="#">+91 [WhatsApp]</a></li>
+          <li><a href="#">@PaadiVillage</a></li>
+          <li><a href="report.html">Project Report</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Pokkali Village. An initiative of Palliyakkal Service Cooperative Bank.</div>
+      <div>Marketing Plan v2.0 • June 2026</div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Execution Plan — Pokkali Village</title>
+<meta name="description" content="18-month timeline, interactive budget calculator, KPI framework, and launch playbook for Pokkali Village." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="progress-rail" id="progress-rail"></div>
+
+<nav class="nav scrolled" id="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-mark">P</div>
+      <span>Pokkali Village</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="market.html">Market</a></li>
+      <li><a href="offerings.html">Offerings</a></li>
+      <li><a href="plan.html" class="nav-active">Plan</a></li>
+      <li><a href="strategy.html">Strategy</a></li>
+      <li><a href="report.html">Report</a></li>
+    </ul>
+    <div class="nav-tools">
+      <button class="icon-btn" id="theme-toggle" title="Toggle theme">🌙</button>
+      <button class="icon-btn no-print" id="print-btn" title="Print / Save as PDF">🖨</button>
+      <a href="strategy.html" class="nav-cta">Strategy →</a>
+      <button class="mobile-toggle">☰</button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" data-section-label="Top">
+  <div class="container">
+    <span class="eyebrow" style="color: var(--gold);">Execution Plan</span>
+    <h1>From Launch to <em>Harvest Festival</em></h1>
+    <p>18-month phased roadmap, interactive budget calculator, measurable KPIs, and a launch playbook — every number, every milestone, every move.</p>
+    <div class="page-nav">
+      <a href="#timeline">Timeline</a>
+      <a href="#budget">Budget</a>
+      <a href="#kpis">KPIs</a>
+      <a href="#launch">Launch</a>
+    </div>
+  </div>
+</section>
+
+<!-- 18-MONTH TIMELINE -->
+<section class="section bg-dark" id="timeline" data-section-label="Timeline">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">18-Month Phased Plan</span>
+      <h2 class="section-title">From Launch to Harvest Festival</h2>
+      <p class="section-subtitle">A phased approach: Foundation → Build & Partner → Scale → Events & Festival. Click a phase to filter.</p>
+    </div>
+
+    <div class="phase-filter">
+      <button class="phase-btn active" data-phase="all">All 18 Months</button>
+      <button class="phase-btn" data-phase="1">M1 — Soft Launch</button>
+      <button class="phase-btn" data-phase="2">M4–6 — Pilot</button>
+      <button class="phase-btn" data-phase="3">M7–12 — Cluster</button>
+      <button class="phase-btn" data-phase="4">M13–18 — Zone</button>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item fade-in" data-phase="1">
+        <div class="timeline-card left">
+          <span class="timeline-phase">Phase 1</span>
+          <h3>Soft Launch</h3>
+          <div class="timeline-theme">"Pokkali Village soft launch, PAADI Tales app, Paadi Veedu 51-household enrolment"</div>
+          <ul class="timeline-activities">
+            <li><strong>Pokkali Village:</strong> brand &amp; soft launch; 25 June 2026 with District Collector</li>
+            <li><strong>PAADI Tales:</strong> app live; half-day tour demo; RT Mission registration filed</li>
+            <li><strong>Paadi Veedu:</strong> 51 households enrolled; seed kits distributed; SHG feast committee formed</li>
+            <li>Soft launch: 10–20 invited guests; press kit; first 3 Fort Kochi operator agreements</li>
+          </ul>
+          <div class="timeline-target"><strong>Target:</strong> 500 IG followers, 50 emails, 10 bookings, 5 Google reviews, 51 homes enrolled</div>
+        </div>
+        <div class="timeline-marker">M1</div>
+        <div></div>
+      </div>
+      <div class="timeline-item fade-in" data-phase="2">
+        <div></div>
+        <div class="timeline-marker">M4–6</div>
+        <div class="timeline-card right">
+          <span class="timeline-phase">Phase 2</span>
+          <h3>Pilot — Homestay + First Feast</h3>
+          <div class="timeline-theme">"Homestay pilot, first 51-item feast"</div>
+          <ul class="timeline-activities">
+            <li><strong>Pokkali Village:</strong> 100+ reviews on Google + TripAdvisor; first press feature</li>
+            <li><strong>PAADI Tales:</strong> 5 tour operator partnerships; 1,000 visitors cumulative; 1 Tier A press feature</li>
+            <li><strong>Paadi Veedu:</strong> kitchen gardens established; composting training for 50 women; first 51-item feast hosted; FSSAI registration; first compost cycle complete</li>
+            <li>10–20 homestays RT-certified; revenue-share model live; host kits delivered</li>
+          </ul>
+          <div class="timeline-target"><strong>Target:</strong> 5,000 IG followers, 40 reviews, 350 visitors, first 51-item feast served</div>
+        </div>
+      </div>
+      <div class="timeline-item fade-in" data-phase="3">
+        <div class="timeline-card left">
+          <span class="timeline-phase">Phase 3</span>
+          <h3>Cluster — 500 Households</h3>
+          <div class="timeline-theme">"500 households, weekly feast"</div>
+          <ul class="timeline-activities">
+            <li><strong>Pokkali Village:</strong> 1,000+ visitors cumulative; press coverage across regional + national outlets</li>
+            <li><strong>PAADI Tales:</strong> Corporate CSR packages live; 3,000 IG followers; e-commerce (rice/pickle) live</li>
+            <li><strong>Paadi Veedu:</strong> 500 homes enrolled across 5 panchayats; 51-item feast becomes weekly; 100 homestays RT-certified; first 50 homes serving from kitchen gardens</li>
+            <li>Grand Opening event; first e-commerce shipments of Paadi Veedu produce</li>
+          </ul>
+          <div class="timeline-target"><strong>Target:</strong> 8,000 IG followers, 50 reviews, 500 visitors, 10 corporate groups, 500 homes</div>
+        </div>
+        <div class="timeline-marker">M7–12</div>
+        <div></div>
+      </div>
+      <div class="timeline-item fade-in" data-phase="4">
+        <div></div>
+        <div class="timeline-marker">M13–18</div>
+        <div class="timeline-card right">
+          <span class="timeline-phase">Phase 4</span>
+          <h3>Pokkali Zone — 2,500 Households</h3>
+          <div class="timeline-theme">"2,500 households, RT Village status"</div>
+          <ul class="timeline-activities">
+            <li><strong>Pokkali Village:</strong> E-commerce at scale; Year 2 planning; 2,500+ visitors</li>
+            <li><strong>PAADI Tales:</strong> 3-day retreat "Soul of the Grain" launched; 15,000 IG followers; ₹15 lakh monthly run-rate</li>
+            <li><strong>Paadi Veedu:</strong> 2,500 homes across the full Pokkali zone; 250+ homestays; 51-item feast as signature cultural event of Ernakulam; RT Village status achieved for the cluster</li>
+            <li>Host network revenue ₹1.5 lakh/month per active homestay</li>
+          </ul>
+          <div class="timeline-target"><strong>Target:</strong> 15,000 IG followers, 100 reviews, 1,000+ visitors, 5 press features, 2,500 homes, RT Village status</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUDGET -->
+<section class="section bg-dark" id="budget" data-section-label="Budget">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">Budget Allocation</span>
+      <h2 class="section-title">Lean, Smart, Interactive</h2>
+      <p class="section-subtitle">Move the sliders to model different allocations. Total budget: ₹2–3.5 lakh. Projections update live based on your mix.</p>
+    </div>
+    <div class="budget-grid">
+      <div class="budget-chart fade-in-left">
+        <div class="budget-total">
+          <div class="budget-total-num" id="budget-total">₹0</div>
+          <div class="budget-total-label">Total 6-Month Budget</div>
+        </div>
+        <div class="budget-slider">
+          <div class="budget-slider-head">
+            <span class="budget-slider-name">Instagram / Meta Ads</span>
+            <span class="budget-slider-value" data-default="0">₹0</span>
+          </div>
+          <input type="range" name="meta" data-display="Meta Ads" min="0" max="120000" value="82500" step="500" />
+        </div>
+        <div class="budget-slider">
+          <div class="budget-slider-head">
+            <span class="budget-slider-name">Google Ads</span>
+            <span class="budget-slider-value">₹0</span>
+          </div>
+          <input type="range" name="google" data-display="Google Ads" min="0" max="80000" value="50000" step="500" />
+        </div>
+        <div class="budget-slider">
+          <div class="budget-slider-head">
+            <span class="budget-slider-name">Video Production</span>
+            <span class="budget-slider-value">₹0</span>
+          </div>
+          <input type="range" name="video" data-display="Video" min="0" max="80000" value="50000" step="500" />
+        </div>
+        <div class="budget-slider">
+          <div class="budget-slider-head">
+            <span class="budget-slider-name">Influencer Campaigns</span>
+            <span class="budget-slider-value">₹0</span>
+          </div>
+          <input type="range" name="influencer" data-display="Influencer" min="0" max="100000" value="40000" step="500" />
+        </div>
+        <div class="budget-slider">
+          <div class="budget-slider-head">
+            <span class="budget-slider-name">E-commerce Setup</span>
+            <span class="budget-slider-value">₹0</span>
+          </div>
+          <input type="range" name="ecom" data-display="E-com" min="0" max="30000" value="15000" step="500" />
+        </div>
+        <div class="budget-slider">
+          <div class="budget-slider-head">
+            <span class="budget-slider-name">PR &amp; Events</span>
+            <span class="budget-slider-value">₹0</span>
+          </div>
+          <input type="range" name="pr" data-display="PR" min="0" max="30000" value="15000" step="500" />
+        </div>
+        <div class="budget-slider">
+          <div class="budget-slider-head">
+            <span class="budget-slider-name">Misc / Contingency</span>
+            <span class="budget-slider-value">₹0</span>
+          </div>
+          <input type="range" name="misc" data-display="Misc" min="0" max="30000" value="15000" step="500" />
+        </div>
+      </div>
+      <div class="projection-box fade-in-right">
+        <h3>Projected Visitors</h3>
+        <p style="font-size: 13px; color: var(--gray); margin-bottom: 20px;">Based on conservative : moderate : aggressive conversion ratios of 1.0 / 3.6 / 7.2 visitors per ₹1,000 spent.</p>
+        <div class="projection-scenario conservative" id="proj-cons-card">
+          <div class="projection-scenario-name">Conservative</div>
+          <div class="projection-scenario-value" id="proj-conservative">0 visitors</div>
+        </div>
+        <div class="projection-scenario moderate" id="proj-mod-card">
+          <div class="projection-scenario-name">Moderate (Target)</div>
+          <div class="projection-scenario-value" id="proj-moderate">0 visitors</div>
+        </div>
+        <div class="projection-scenario aggressive" id="proj-agg-card">
+          <div class="projection-scenario-name">Aggressive</div>
+          <div class="projection-scenario-value" id="proj-aggressive">0 visitors</div>
+        </div>
+        <p style="font-size: 12px; color: var(--gray); margin-top: 20px; line-height: 1.5;">
+          <strong>Note:</strong> Projections assume organic content + paid ads work in tandem. Below ₹2L, scale-back to Phase 1+2 only. Above ₹3.5L, accelerate to festival + PR push.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KPI DASHBOARD -->
+<section class="section" id="kpis" data-section-label="KPIs">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">KPI Framework</span>
+      <h2 class="section-title">How We Measure Success</h2>
+      <p class="section-subtitle">Hover any card for definitions. Clear, measurable targets across awareness, acquisition, conversion, and revenue.</p>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi-card scale-in">
+        <div class="kpi-num" data-count="15000">0</div>
+        <div class="kpi-label">Instagram Followers</div>
+        <div class="kpi-trend"><strong>+14,500</strong> from Month 1</div>
+        <div class="kpi-tooltip">Followers gained over 6 months. Tracked weekly via Instagram Insights. Target derived from 5x conservative growth on a 500-follower base.</div>
+      </div>
+      <div class="kpi-card scale-in">
+        <div class="kpi-num" data-count="1000">0</div>
+        <div class="kpi-label">Total Visitors</div>
+        <div class="kpi-trend"><strong>200</strong> foreign tourists</div>
+        <div class="kpi-tooltip">Unique paying visitors across all packages. Tracked via booking system + walk-in registration. Foreign share target: 20%.</div>
+      </div>
+      <div class="kpi-card scale-in">
+        <div class="kpi-num" data-count="100">0</div>
+        <div class="kpi-label">TripAdvisor Reviews</div>
+        <div class="kpi-trend"><strong>4.5+</strong> avg rating</div>
+        <div class="kpi-tooltip">Cumulative reviews on TripAdvisor. Target 4.5+ average. Each soft-launch + Pioneer guest is prompted to leave a review.</div>
+      </div>
+      <div class="kpi-card scale-in">
+        <div class="kpi-num" data-count="17">0</div>
+        <div class="kpi-label">Lakh Revenue (Total)</div>
+        <div class="kpi-trend"><strong>₹15L</strong> tours + <strong>₹2L</strong> products</div>
+        <div class="kpi-tooltip">Tour package revenue (₹15L) + e-commerce product sales (₹2L) over 6 months. Tracked via Razorpay + Shopify dashboards.</div>
+      </div>
+    </div>
+    <div class="kpi-table fade-in">
+      <table>
+        <thead><tr><th>Metric</th><th>Month 1</th><th>Month 3</th><th>Month 6</th></tr></thead>
+        <tbody>
+          <tr><td>Instagram Followers</td><td class="num-cell">500</td><td class="num-cell">3,000</td><td class="num-cell">15,000</td></tr>
+          <tr><td>Website Visitors</td><td class="num-cell">500</td><td class="num-cell">5,000</td><td class="num-cell">25,000</td></tr>
+          <tr><td>Email Subscribers</td><td class="num-cell">50</td><td class="num-cell">500</td><td class="num-cell">2,000</td></tr>
+          <tr><td>TripAdvisor Reviews</td><td class="num-cell">0</td><td class="num-cell">20</td><td class="num-cell">100</td></tr>
+          <tr><td>Total Visitors</td><td class="num-cell">10</td><td class="num-cell">200</td><td class="num-cell">1,000</td></tr>
+          <tr><td>Foreign Visitors</td><td class="num-cell">0</td><td class="num-cell">20</td><td class="num-cell">200</td></tr>
+          <tr><td>Corporate Groups</td><td class="num-cell">0</td><td class="num-cell">0</td><td class="num-cell">10</td></tr>
+          <tr><td>Partner Operators</td><td class="num-cell">0</td><td class="num-cell">3</td><td class="num-cell">5</td></tr>
+          <tr><td>E-commerce Orders</td><td class="num-cell">0</td><td class="num-cell">50</td><td class="num-cell">500</td></tr>
+          <tr><td>Press Features</td><td class="num-cell">0</td><td class="num-cell">1</td><td class="num-cell">5</td></tr>
+          <tr><td>Revenue (Tours)</td><td class="num-cell">₹15K</td><td class="num-cell">₹3L</td><td class="num-cell">₹15L</td></tr>
+          <tr><td>Revenue (Products)</td><td class="num-cell">₹0</td><td class="num-cell">₹25K</td><td class="num-cell">₹2L</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- LAUNCH PLAYBOOK -->
+<section class="section bg-cream" id="launch" data-section-label="Launch">
+  <div class="container">
+    <div class="text-center">
+      <span class="eyebrow">Soft Launch &amp; Grand Opening</span>
+      <h2 class="section-title">3 Phases, 220 People, 1 Story</h2>
+      <p class="section-subtitle">Closed soft launch validates operations. Founding visitor window builds reviews. Grand opening wins the press.</p>
+    </div>
+    <div class="risk-grid">
+      <div class="risk-card fade-in">
+        <div class="risk-icon success">A</div>
+        <div class="risk-text">
+          <h4>Phase A — Closed Soft Launch (Week 9-10)</h4>
+          <p><strong>20 invited guests</strong> — 5 PAADI board, 5 hotel GMs, 5 nano-influencers, 2 journalists, 3 staff families. Test booking flow, food, photos, checkout. Success: ≥80% post Reel, ≥4.0/5 survey, zero safety incidents.</p>
+        </div>
+      </div>
+      <div class="risk-card fade-in">
+        <div class="risk-icon success">B</div>
+        <div class="risk-text">
+          <h4>Phase B — Founding Pioneer Window (Week 11-14)</h4>
+          <p><strong>50 slots, 20% lifetime discount</strong> + "Paadi Pioneer" badge + signed postcard. Trade: honest public review + 1 Reel/Story with #PaadiPioneer + photo permission. Email list + IG + Fort Kochi concierges.</p>
+        </div>
+      </div>
+      <div class="risk-card fade-in">
+        <div class="risk-icon success">C</div>
+        <div class="risk-text">
+          <h4>Phase C — Grand Opening (Month 3, Day 75)</h4>
+          <p><strong>150 attendees, ₹80-120K</strong> budget. 3-hour programme: ribbon cutting, 3-group farm walk, cooking demo, folk performance, press Q&amp;A. 30 media + 10 influencers + 5 corporates + 5 officials + community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section bg-dark" data-section-label="Next">
+  <div class="container">
+    <div class="next-steps" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+      <span class="eyebrow" style="color: var(--gold);">What's Next?</span>
+      <h2 style="color: var(--white);">Deep Dive into Strategy</h2>
+      <p style="color: rgba(245,240,232,0.8);">Partnerships, content calendar, PR, crisis communications, risks, and the full implementation checklist.</p>
+      <div class="hero-cta-group">
+        <a href="strategy.html" class="btn btn-primary">View Strategy →</a>
+        <a href="report.html" class="btn btn-outline">Project Report →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Pokkali Village</div>
+        <div class="footer-tag">Walk the Fields. Ride the Waters. Taste the Story.</div>
+        <p class="footer-desc">Pokkali Village — the umbrella project. PAADI Tales — the tour product. Paadi Veedu — the agro ecosystem. India's first GI-tagged rice tourism destination, anchored by Palliyakkal Service Cooperative Bank.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Discover</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="market.html">Market Analysis</a></li>
+          <li><a href="offerings.html">Offerings</a></li>
+          <li><a href="plan.html">Execution Plan</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Plan</h4>
+        <ul>
+          <li><a href="plan.html">18-Month Plan</a></li>
+          <li><a href="strategy.html">Strategy</a></li>
+          <li><a href="report.html">Project Report</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">hello@paadivillage.in</a></li>
+          <li><a href="#">+91 [WhatsApp]</a></li>
+          <li><a href="#">@PaadiVillage</a></li>
+          <li><a href="report.html">Project Report</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Pokkali Village. An initiative of Palliyakkal Service Cooperative Bank.</div>
+      <div>Marketing Plan v2.0 • June 2026</div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
